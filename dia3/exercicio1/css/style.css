@@ -1,0 +1,7 @@
+div {
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+    max-width: 300px;
+    padding: 20px 10px 70px;
+}
