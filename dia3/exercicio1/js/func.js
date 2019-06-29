@@ -4,17 +4,15 @@ botao.addEventListener('click', function(){
     console.log("funcionando");
     let valor = document.getElementById('txt');
     let valorElement = valor.value;    
-    console.log(valorElement);   
-
     let newElement = document.createElement('p');
-    let txt = document.createTextNode(valorElement);
-    newElement.appendChild(txt);
+    newElement.innerText = valorElement;
 
-    document.body.div.insertBefore(newElement, botao); 
-
-   /* let elementP = document.getElementById('container');
-    elementP.appendChild(document.createElement('p'));
+    let elementP = document.getElementById('container');
+    elementP.appendChild(newElement);
     console.log(elementP);
-    elementP.lastChild.innerHTML = valorElement;*/
+    console.log(newElement);
+
+    
+    
    
 });
